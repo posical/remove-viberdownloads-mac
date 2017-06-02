@@ -4,5 +4,6 @@ mv ~/Documents/ViberDownloads/ ~/.Trash
 cd ~/.Trash
 rm -rf ViberDownloads
 
-osascript -e 'tell application "Terminal" to close (every window whose name contains "ClearViberDownloads")' &
+#osascript -e 'tell application "Terminal" to close (every window whose name contains "ClearViberDownloads")' &
+osascript -e 'quit app "Terminal"' &
 exit
